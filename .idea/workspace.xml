@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d46d583-2cce-40a1-9357-6e25ea7a5a45" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Maven/apache-maven-3.5.0/repository" />
+        <option name="mavenHome" value="$USER_HOME$/Maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="$USER_HOME$/Maven/apache-maven-3.5.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29eyo72ncfUChd60T4eXMbw3qv2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Application.MyClassLoader">
+    <configuration name="Code01_ClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsh.class01.Code01_ClassLoader" />
+      <module name="jvm-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsh.class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code01_ClassLoaderScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsh.class01.Code01_ClassLoaderScope" />
+      <module name="jvm-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsh.class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code02_RunTimeDateAreas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsh.class01.Code02_RunTimeDateAreas" />
+      <module name="jvm-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsh.class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code03_Object" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsh.class01.Code03_Object" />
+      <module name="jvm-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsh.class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsh.class01.MyClassLoader" />
+      <module name="jvm-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsh.class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyClassLoader" />
+        <item itemvalue="Application.Code01_ClassLoader" />
+        <item itemvalue="Application.Code01_ClassLoaderScope" />
+        <item itemvalue="Application.Code03_Object" />
+        <item itemvalue="Application.Code02_RunTimeDateAreas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d46d583-2cce-40a1-9357-6e25ea7a5a45" name="Default Changelist" comment="" />
+      <created>1653488017474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653488017474</updated>
+      <workItem from="1653488019262" duration="741000" />
+      <workItem from="1653570407721" duration="4260000" />
+      <workItem from="1653579510666" duration="2144000" />
+      <workItem from="1653631518566" duration="3732000" />
+      <workItem from="1653665390751" duration="1267000" />
+      <workItem from="1653724908250" duration="193000" />
+      <workItem from="1653725517570" duration="2978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1653728545664">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1653728545664" />
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1653729828107">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1653729828107" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1653573528247" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/43.23.1397.877@43.23.1397.877" timestamp="1653726967867" />
+    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1653729828104">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1653729828104" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1653573528246" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center/43.23.1397.877@43.23.1397.877" timestamp="1653726967865" />
+    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1653729828103">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1653729828103" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1653573528245" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left/43.23.1397.877@43.23.1397.877" timestamp="1653726967863" />
+    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1653729828106">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1653729828106" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1653573528247" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/43.23.1397.877@43.23.1397.877" timestamp="1653726967866" />
+    <state x="229" y="66" key="SettingsEditor" timestamp="1653665542705">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="66" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1653665542705" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1653726555906">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1653726555906" />
+  </component>
+</project>
