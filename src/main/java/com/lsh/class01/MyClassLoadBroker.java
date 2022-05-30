@@ -62,15 +62,24 @@ public class MyClassLoadBroker extends ClassLoader  {
 
     public static void main(String[] args)throws Exception {
         MyClassLoadBroker myClassLoadBroker = new MyClassLoadBroker();
-        Class<?> aClass = myClassLoadBroker.loadClass("com.lsh.class01.HelloWorld");
+        Class<?> aClass1 = myClassLoadBroker.loadClass("com.lsh.class01.HelloWorld");
+        //如果一个类已经被一个类加载器加载到内存中，此时再用同一个类加载进行加载则会抛异常 Exception in thread "main" java.lang.LinkageError: loader (instance of  com/lsh/class01/MyClassLoadBroker): attempted  duplicate class definition for name: "com/lsh/class01/HelloWorld"
+        //尝试重复的名称类定义 ：attempted  duplicate class definition for name
+//        Class<?> aClass3 = myClassLoadBroker.loadClass("com.lsh.class01.HelloWorld");
+//        System.out.println(aClass1 == aClass3);
 
-        System.out.println(aClass.getClass().getClassLoader());
-        System.out.println(aClass.getClassLoader());
+        System.out.println(aClass1.getClass().getClassLoader());
+        System.out.println(aClass1.getClassLoader());
 
         myClassLoadBroker = new MyClassLoadBroker();
-        Class<?> aClass1 = myClassLoadBroker.loadClass("com.lsh.class01.HelloWorld");
+        Class<?> aClass2 = myClassLoadBroker.loadClass("com.lsh.class01.HelloWorld");
         System.out.println(""+aClass1.getClassLoader());
-        System.out.println(aClass == aClass1);
+        System.out.println(aClass2 == aClass1);
+        /**
+         * false
+         * 由于打破了双亲委派机制，则无法保证JVM中类的唯一性
+         * aClass1 和 aClass2 是由不同的类加载器加载的
+         */
 
     }
 }

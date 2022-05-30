@@ -10,7 +10,8 @@ import java.io.FileInputStream;
  * @desc ：自定义类加载器 继承java.lang.ClassLoader
  * 重写 findClass（）方法
  * 使用该类加载器时调用loadClass（）方法
- * Users/LiuShihao/Desktop/Demo.class
+ * 类路径目录：/Users/LiuShihao/IdeaProjects/jvm-demo/target/classes/com/lsh/class01/Demo.class
+ * 其他目录：Users/LiuShihao/Desktop/Demo.class
  */
 public class MyClassLoader extends ClassLoader {
     @Override
@@ -54,15 +55,9 @@ public class MyClassLoader extends ClassLoader {
         Class<?> aClass1 = myClassLoader.loadClass("Demo");
         System.out.println(aClass.getClassLoader());
         System.out.println(aClass == aClass1);//判断加载出的类是否是同一个类
-
 //        Demo o = (Demo)aClass.newInstance();
 //        o.m();
-
-
 //        Class<?> aClass1 = myClassLoader.loadClass("com.lsh.class01.Demo");
-
-
-
     }
 
 }
